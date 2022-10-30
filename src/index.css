@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#title{
+  font-family: 'Montserrat', sans-serif;
+  color:#fff;
+  background-color: #03002e;
+  padding: 20px;
+  margin: 0px;
+  font-size: 50px;
+  padding-left: 100px;
+}
+
+#App{
+  background-color: #010048;
+  padding-top: 30px;
+  width: fit-content;
+  block-size: fit-content;
+  overflow-x: hidden;
+  min-height: 100%;
+  margin-left: 0px;
+}
+
+button{
+  width: 100px;
+  height: 50px
+}
+
+.lang{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 15px;
+}
+
+#choicesLang, #mic{
+  margin-left: 50px;
+}
+#lang{
+  width: 200px;
+  line-height: 20px;
+  margin-left: 70px;
+  margin-top: 20px; 
+  margin-bottom: 30px;
+  background-color: #02006c;
+
+}
+
+#textarea{
+  margin-top: 20px;
+  height: 431px;
+  margin-bottom: 20px;
+  padding: 40px;
+  font-size: 20px;
+  width: 720px
+  
+}
+
+#resetButton{
+  margin-bottom: 10px;
+  height: 70px;
+  width: 100px;
+  margin-left: 80px;
+  margin-top: 50px;
+  background-color: #02006c;
+}
+
+#resetButton:hover{
+  background-image: linear-gradient(rgba(114, 68, 68, 0.188) 0 0);
+}
+
+#subtitle{
+  font-family: 'Montserrat', sans-serif;
+  color:#ECB390;
+  background-color: #FCF8E8;
+  margin: 0px;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 20px;
+  width: 500px;
+}
+
+textarea {
+  background-color: #03002e;
+  color: #fff;
+}
